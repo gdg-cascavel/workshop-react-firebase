@@ -1,10 +1,10 @@
-import webpack from 'webpack';
-import path from 'path';
+var webpack = require('webpack');
+var path = require('path');
 
-const BUILD_DIR = path.resolve(__dirname, 'src/client/public');
-const APP_DIR = path.resolve(__dirname, 'src/client/app');
+var BUILD_DIR = path.resolve(__dirname, 'public');
+var APP_DIR = path.resolve(__dirname, 'src');
 
-const config = {
+var config = {
   entry: `${APP_DIR}/index.jsx`,
   output: {
     path: BUILD_DIR,
@@ -21,4 +21,4 @@ const config = {
   }
 };
 
-export default config;
+module.exports = config;
