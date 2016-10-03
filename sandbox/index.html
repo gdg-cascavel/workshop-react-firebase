@@ -1,0 +1,27 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>React Tutorial</title>
+    <script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <script src="https://unpkg.com/jquery@3.1.0/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/remarkable@1.6.2/dist/remarkable.min.js"></script>
+    <link rel="stylesheet" href="styles.css" media="screen" />
+  </head>
+  <body>
+    <div id="content"></div>
+    <footer>Workshop React</footer>
+    <script type="text/babel">
+
+    const HelloMessage = ({ name }) => (
+      <div>Hello {name}</div>
+    );
+
+    ReactDOM.render(<HelloMessage name="John" />, document.getElementById('content'));
+
+    </script>
+  </body>
+</html>

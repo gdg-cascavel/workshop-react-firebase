@@ -16,3 +16,9 @@
 * Install Homebrew http://brew.sh (if you haven't already done so)
 * In a terminal
   * brew install node
+
+## Sandbox Environment
+
+Open `sandbox/index.html` in your browser to see a basic component running.
+Edit it to test your code without going all the way down in the env config or
+in case you are having troubles during the workshop.
