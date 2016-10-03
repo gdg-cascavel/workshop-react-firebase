@@ -13,3 +13,5 @@ import React from 'react'
 const HelloMessage = ({ name }) => (
   <div>Hello {name}</div>
 )
+
+export default HelloMessage

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class TimedMessage extends Component {
+export default class TimedMessage extends Component {
   constructor(props) {
     super(props);
 
