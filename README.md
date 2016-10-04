@@ -17,6 +17,18 @@
 * In a terminal
   * brew install node
 
+### Linux
+  (you may already know what to do)
+  * In a terminal
+    * sudo apt-get update
+    * sudo apt-get install git
+    * sudo apt-get install nodejs
+    * sudo apt-get install npm
+  * Check environment (In ternimal)
+    * git --version
+    * node -v
+    * npm -v
+
 ## Sandbox Environment
 
 Open `sandbox/index.html` in your browser to see a basic component running.
